@@ -1,0 +1,266 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.menu-item {
+  border: rgb(56, 155, 236) 1px;
+  height: 100%;
+  float: left;
+  width: 210px;
+  background-color: #ff5c4b;
+  text-align: center;
+  display: block;
+  color: #ffcec9;
+  border-radius: 3vh;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+.list {
+  border: 1px solid;
+}
+
+.menu-info {
+  padding: 3px;
+  color: #ffcec9;
+}
+
+.menu {
+  margin-top: 350px;
+}
+
+table {
+  font-family: sans-serif;
+  font-size: 14px;
+  text-align: left;
+  border-collapse: collapse;
+
+  background: #f8f7fc;
+  color: #656665;
+}
+
+th {
+  font-size: 18px;
+  padding: 18px;
+}
+td {
+  padding: 10px;
+  background: #c7c7c7;
+  color: #f8f7fc;
+  padding: 10px 20px;
+  border-style: solid;
+  border-width: 0 1px 1px 0;
+  border-color: white;
+}
+
+.details {
+  position: absolute;
+  background: white;
+  width: 479px;
+
+  left: 961px;
+  top: 0px;
+  height: 100%;
+}
+
+.two {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding-left: 35px;
+  float: left;
+}
+
+.line {
+  width: 426px;
+  height: 0px;
+  left: 990px;
+  top: 114.85px;
+
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.bottom li {
+  border-bottom: 1px solid;
+}
+
+.indent:hover {
+  transform: scale(1.2);
+}
+
+#circle {
+  position: absolute;
+  width: 25px;
+  height: 25.87px;
+  left: 95px;
+  top: 312.62px;
+  background: #00b8ee;
+  border-radius: 17px;
+}
+#circle-two {
+  position: absolute;
+  width: 25px;
+  height: 25.87px;
+  left: 95px;
+  top: 405.29px;
+  background: #00b8ee;
+  border-radius: 18px;
+}
+
+.circle-three {
+  position: absolute;
+  width: 27px;
+  height: 27px;
+  left: 94px;
+  top: 473px;
+  border-radius: 17px;
+  border: 1px solid #00b8ee;
+}
+
+.margin-left {
+  margin-left: 134px;
+  font-size: 18px;
+  margin-top: 77px;
+}
+
+.kuk {
+  position: absolute;
+  width: 71.4px;
+  left: 72px;
+  top: 369.07px;
+  border: 2px solid #00b8ee;
+  transform: rotate(90deg);
+}
+.kuk2 {
+  position: absolute;
+  width: 71.4px;
+  height: fit-content;
+  left: 72px;
+  top: 436.07px;
+  border: 2px solid #00b8ee;
+  transform: rotate(90deg);
+}
+
+.kuk3 {
+  position: absolute;
+  width: 71.4px;
+  height: fit-content;
+  left: 72px;
+  top: 533.07px;
+  border: 2px solid #00b8ee;
+  transform: rotate(90deg);
+}
+
+p {
+  margin-top: -37px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.margin-right {
+  margin-left: 134px;
+  font-size: 18px;
+  margin-top: 70px;
+}
+
+.right {
+  margin-top: -39px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.margin-bottom {
+  margin-left: 134px;
+  font-size: 18px;
+  margin-top: 43px;
+}
+.time {
+  margin-top: -38px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+img {
+  position: absolute;
+  width: 479px;
+  height: 234.88px;
+  left: 0px;
+  top: 571.12px;
+}
+
+ul {
+  bottom: 1px;
+}
+
+li {
+  bottom: -5px;
+  margin-bottom: 17px;
+  margin-left: -38px;
+  color: rgba(0, 0, 0, 1);
+}
+
+a {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+span {
+  margin-left: 155px;
+}
+
+.top {
+  border: 1px;
+  text-align: center;
+  margin-top: 0;
+  width: 479px;
+  height: 58.98px;
+  left: 961px;
+  top: 0px;
+  background: #ff5c4a;
+  border-radius: 6px 6px 0px 0px;
+  color: #f5f5f5;
+}
+.btn {
+  width: 479px;
+  height: 73px;
+  background: #5358e2;
+  margin-top: 228px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  border: #5358e2;
+  border-bottom-right-radius: 50px;
+}
+
+.cover::after {
+  content: "";
+  position: absolute;
+  background: black;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+body {
+  height: 100%;
+  height: 100vh;
+}
